@@ -1,7 +1,8 @@
 ---
 output:
-  html_document: default
+  word_document: default
   pdf_document: default
+  html_document: default
 ---
 Link to dataset: https://www.kaggle.com/mirichoi0218/insurance
 Predicting cost of medical bill provided age, sex, bmi, number of children, smoking habit, and region.
