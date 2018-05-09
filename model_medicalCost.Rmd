@@ -1,3 +1,8 @@
+---
+output:
+  html_document: default
+  pdf_document: default
+---
 Link to dataset: https://www.kaggle.com/mirichoi0218/insurance
 Predicting cost of medical bill provided age, sex, bmi, number of children, smoking habit, and region.
 
@@ -14,7 +19,7 @@ summary(insuranceDataset)
 ```
 Visualizing data using ggplot2
 ```{r}
-install.packages('ggplot2')
+install.packages('ggplot2', repos = "http://cran.us.r-project.org")
 library(ggplot2)
 
 #Plotting the age of participants and their count with respective age.
