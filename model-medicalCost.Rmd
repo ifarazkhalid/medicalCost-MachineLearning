@@ -14,8 +14,8 @@ summary(insuranceDataset)
 ```
 Visualizing data using ggplot2
 ```{r}
-#install.packages('ggplot2')
-#library(ggplot2)
+install.packages('ggplot2')
+library(ggplot2)
 
 #Plotting the age of participants and their count with respective age.
 ggplot(insuranceDataset, aes(age, fill = age ) ) +
